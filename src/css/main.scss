@@ -1,3 +1,28 @@
 @charset "UTF-8";
 
+// font-family
+$font-stack: 'Karla', sans-serif;
+
+// colors
+$primary-color: #ee6753;
+$heading-color: #352222;
+$small-heading-color: #586a6b;
+$stories-link-color: #10576b;
+$text-color: #725f5f;
+
+// Buttons
+$btn-height: 54px;
+
+// font-sizes
+$main-heading-font-size: 36px;
+$logo-font-size: 26px;
+$sub-heading-font-size: 24px;
+$description-font-size: 21px;
+$nav-item-font-size: 19px;
+$small-heading-font-size: 18px;
+
+a {
+    text-decoration: none;
+}
+
 @import "./pages/home";

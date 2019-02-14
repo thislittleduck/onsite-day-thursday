@@ -1,5 +1,63 @@
-// global
+body {
+    font-family: $font-stack;
+}
 
-// nav
+.ul-style-none {
+    list-style: none;
+}
 
-// 
+// Header
+
+.logo {
+    a {
+        color: $primary-color;
+        font-size: $logo-font-size;
+    }
+}
+
+nav {
+    font-size: $nav-item-font-size;
+    .nav-item {
+        a {
+            color: $primary-color; 
+        }
+    }
+    .nav-btn {
+        background-color: $primary-color;
+        width: 222px;
+        height: $btn-height;
+        border-radius: 3px;
+        a {
+            color: #ffffff;
+        }
+    }
+}
+
+form {
+    input {
+        height: $btn-height;
+    }
+    button {
+        background-color: $primary-color;
+        color: #ffffff;
+        width: 137px;
+        height: $btn-height;
+        border-radius: 3px;
+    }
+}
+
+// Headings
+
+.main-heading {
+    font-size: $main-heading-font-size;
+    color: $heading-color;
+}
+
+// text 
+
+.intro-description {
+    font-size: $description-font-size;
+    color: $heading-color;
+}
+
+
